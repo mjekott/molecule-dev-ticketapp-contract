@@ -1,0 +1,40 @@
+# Node / package managers
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build tools & configs
+.eslintrc
+.eslintrc.*
+.prettierrc
+.prettierrc.*
+.editorconfig
+tsconfig*.json
+jest.config.*
+vitest.config.*
+webpack.config.*
+rollup.config.*
+vite.config.*
+
+
+# Git & GitHub
+.git
+.gitignore
+.github
+
+# Environment files
+.env
+.env.*
+.env.local
+
+# Docs & misc
+docs
+examples
+*.md
+
+# OS / IDE
+.DS_Store
+.idea
+.vscode
