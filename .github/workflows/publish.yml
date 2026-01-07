@@ -21,13 +21,13 @@ jobs:
           registry-url: https://registry.npmjs.org/
 
       - name: Install protoc
-        run: Sudo apt-get update && sudo apt-get install -y protobuf-compiler
+        run: sudo apt-get update && sudo apt-get install -y protobuf-compiler
 
       - name: Install deps
-        uses: yarn install --frozen-lockfile
+        run: yarn install --frozen-lockfile
 
       - name: Generate TS Protobuf
-        uses: yarn run generate
+        run: yarn run generate
 
       - name: Publish to NPM
         run: npm publish
