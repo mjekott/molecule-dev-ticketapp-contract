@@ -1,12 +1,18 @@
 {
   "name": "@molecule-dev/ticketapp-contracts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "ISC",
   "type": "module",
   "publishConfig": {
     "access": "public"
   },
   "description": "Protocol Buffer definitions and generated TypeScript code",
+  "exports": {
+    "./contracts/gen/auth": {
+      "types": "./gen/auth.ts",
+      "default": "./gen/auth.ts"
+    }
+  },
   "scripts": {
     "generate": "protoc   --proto_path=./proto   --ts_proto_out=./gen   --ts_proto_opt=nestJs=true,package=omit   ./proto/*.proto"
   },
