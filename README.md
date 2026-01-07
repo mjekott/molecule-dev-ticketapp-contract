@@ -1,6 +1,6 @@
 # Contracts
 
-Protocol Buffer definitions and generated TypeScript code.
+Protocol Buffer definitions and generated TypeScript code .
 
 ## Directory Structure
 
