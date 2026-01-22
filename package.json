@@ -1,6 +1,6 @@
 {
   "name": "@molecule-dev/ticketapp-contracts",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "ISC",
   "publishConfig": {
     "access": "public"
@@ -10,8 +10,8 @@
   "files": [
     "dist",
     "proto",
-     "gen"  
-],
+    "gen"
+  ],
   "description": "Protocol Buffer definitions and generated TypeScript code",
   "exports": {
     "./contracts/gen/auth": {
